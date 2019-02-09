@@ -1,7 +1,7 @@
 {
-  "name": "NotesManagement",
+  "name": "funwithrwitter",
   "version": "0.0.1",
-  "description": "Custom Notes Management with ORM",
+  "description": "Custom twittes Management with ORM",
   "main": "server/index.js",
   "scripts": {
     "start": "nodemon",
@@ -9,7 +9,7 @@
     "lint": "eslint server/**/**/*.js",
     "lint-fix": "eslint server/**/**/*.js --fix"
   },
-  "author": "Deepank Bhardwaj kumar.best0777@gmail.com",
+  "author": "Deepank Bhardwaj <kumar.best0777@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",

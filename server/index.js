@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 const Auth =  require('./helpers/verifytoken'); 
 
 // Public Routes
-app.get('/',	(req, res) => { res.status(200).send('Welcome to AlgoScale Task Api'); res.end(); });
+app.get('/',	(req, res) => { res.status(200).send('Welcome to Fun With Twitter Api'); res.end(); });
 app.use('/api/tweets', Auth,	require(`${config.routePath}/FavTweetRoutes`));
 app.use('/api/user',require(`${config.routePath}/UserRoutes`));
 // app.use('/api/test', require(config.routePath + '/Routs'));
